@@ -38,7 +38,7 @@ on 1 byte), but shoehorning those bytes into integers efficiently is messy.
 -------------------------------------------------------------------------------
 */
 
-#include "util/util.h"
+#include "re2/util.h"
 
 #define rot(x,k) (((x)<<(k)) | ((x)>>(32-(k))))
 

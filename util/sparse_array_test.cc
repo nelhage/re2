@@ -4,7 +4,7 @@
 
 // Simple tests that SparseArray behaves.
 
-#include "util/util.h"
+#include "re2/util.h"
 #include "utest/utest.h"
 
 namespace re2 {

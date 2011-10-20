@@ -119,9 +119,9 @@ int RunningOnValgrind();
 
 }  // namespace re2
 
-#include "util/arena.h"
-#include "util/logging.h"
-#include "util/mutex.h"
-#include "util/utf.h"
+#include "re2/arena.h"
+#include "re2/logging.h"
+#include "re2/mutex.h"
+#include "re2/utf.h"
 
 #endif // RE2_UTIL_UTIL_H__

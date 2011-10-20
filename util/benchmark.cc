@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-#include "util/util.h"
-#include "util/flags.h"
-#include "util/benchmark.h"
+#include "re2/util.h"
+#include "re2/flags.h"
+#include "re2/benchmark.h"
 #include "re2/re2.h"
 
 DEFINE_string(test_tmpdir, "/var/tmp", "temp directory");

@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-#include "util/test.h"
+#include "re2/test.h"
 #include "re2/regexp.h"
 
 namespace re2 {

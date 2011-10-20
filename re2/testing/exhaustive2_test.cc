@@ -4,7 +4,7 @@
 
 // Exhaustive testing of regular expression matching.
 
-#include "util/test.h"
+#include "re2/test.h"
 #include "re2/re2.h"
 #include "re2/testing/exhaustive_tester.h"
 

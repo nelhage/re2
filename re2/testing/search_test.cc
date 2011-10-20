@@ -4,7 +4,7 @@
 
 #include <stdlib.h>
 #include <vector>
-#include "util/test.h"
+#include "re2/test.h"
 #include "re2/prog.h"
 #include "re2/regexp.h"
 #include "re2/testing/tester.h"

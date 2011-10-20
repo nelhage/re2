@@ -5,8 +5,8 @@
 #ifndef RE2_UTIL_TEST_H__
 #define RE2_UTIL_TEST_H__
 
-#include "util/util.h"
-#include "util/flags.h"
+#include "re2/util.h"
+#include "re2/flags.h"
 
 #define TEST(x, y) \
 	void x##y(void); \

@@ -6,6 +6,11 @@
 		# re2::StringPiece*
 		_ZN3re211StringPiece*;
 		_ZNK3re211StringPiece*;
+		# re2::FilteredRE2*
+		_ZN3re211FilteredRE2*;
+		_ZNK3re211FilteredRE2*;
+		# re2::FLAGS_filtered_re2_min_atom_len
+		_ZN3re231FLAGS_filtered_re2_min_atom_lenE;
 		# operator<<(std::ostream&, re2::StringPiece const&)
 		_ZlsRSoRKN3re211StringPieceE;
 	local:

@@ -6,7 +6,7 @@
 #include <sys/stat.h>
 #include <vector>
 
-#include "util/test.h"
+#include "re2/test.h"
 #include "re2/re2.h"
 #include "re2/set.h"
 

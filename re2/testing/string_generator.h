@@ -11,8 +11,8 @@
 
 #include <string>
 #include <vector>
-#include "util/util.h"
-#include "util/random.h"
+#include "re2/util.h"
+#include "re2/random.h"
 #include "re2/stringpiece.h"
 
 namespace re2 {

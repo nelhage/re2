@@ -7,9 +7,9 @@
 // compilation as PCRE in namespace re2.
 
 #include <errno.h>
-#include "util/util.h"
-#include "util/flags.h"
-#include "util/pcre.h"
+#include "re2/util.h"
+#include "re2/flags.h"
+#include "re2/pcre.h"
 
 #define PCREPORT(level) LOG(level)
 
