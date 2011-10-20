@@ -39,8 +39,10 @@ SONAME=0
 
 ifeq ($(shell uname),Darwin)
 MAKE_SHARED_LIBRARY=g++ -dynamiclib $(LDFLAGS) -exported_symbols_list libre2.symbols.darwin
+SYMBOL_FILE=libre2.symbols.darwin
 else
 MAKE_SHARED_LIBRARY=g++ -shared -Wl,-soname,libre2.so.$(SONAME),--version-script=libre2.symbols $(LDFLAGS)
+SYMBOL_FILE=libre2.symbols
 endif
 
 INSTALL_HFILES=\
@@ -187,7 +189,7 @@ obj/dbg/libre2.a: $(DOFILES)
 	@mkdir -p obj/dbg
 	$(AR) $(ARFLAGS) obj/dbg/libre2.a $(DOFILES)
 
-obj/so/libre2.so: $(SOFILES)
+obj/so/libre2.so: $(SOFILES) $(SYMBOL_FILE)
 	@mkdir -p obj/so
 	$(MAKE_SHARED_LIBRARY) -o $@.$(SONAME) $(SOFILES)
 	ln -sf libre2.so.$(SONAME) $@
