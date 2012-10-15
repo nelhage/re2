@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 #include <string>
-#include "util/util.h"
+#include "re2/util.h"
 #include "re2/filtered_re2.h"
 #include "re2/prefilter.h"
 #include "re2/prefilter_tree.h"

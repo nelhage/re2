@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 #include "re2/stringpiece.h"
-#include "util/util.h"
+#include "re2/util.h"
 
 using re2::StringPiece;
 

@@ -23,7 +23,7 @@
 // not the main library, in order to make it harder to pick up
 // accidentally.
 
-#include "util/util.h"
+#include "re2/util.h"
 #include "re2/prog.h"
 #include "re2/regexp.h"
 

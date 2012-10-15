@@ -24,7 +24,7 @@
 #include <string>
 #include <stack>
 #include <vector>
-#include "util/test.h"
+#include "re2/test.h"
 #include "re2/testing/regexp_generator.h"
 
 namespace re2 {

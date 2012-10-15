@@ -4,7 +4,7 @@
 
 // Test character class manipulations.
 
-#include "util/test.h"
+#include "re2/test.h"
 #include "re2/regexp.h"
 
 namespace re2 {

@@ -13,8 +13,8 @@
 #include <string>
 #include <pthread.h>
 #include <errno.h>
-#include "util/util.h"
-#include "util/flags.h"
+#include "re2/util.h"
+#include "re2/flags.h"
 #include "re2/prog.h"
 #include "re2/regexp.h"
 

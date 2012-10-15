@@ -51,20 +51,20 @@ INSTALL_HFILES=\
 	re2/variadic_function.h\
 
 HFILES=\
-	util/arena.h\
-	util/atomicops.h\
-	util/benchmark.h\
-	util/flags.h\
-	util/logging.h\
-	util/mutex.h\
-	util/pcre.h\
-	util/random.h\
-	util/sparse_array.h\
-	util/sparse_set.h\
-	util/test.h\
-	util/utf.h\
-	util/util.h\
-	util/valgrind.h\
+	re2/arena.h\
+	re2/atomicops.h\
+	re2/benchmark.h\
+	re2/flags.h\
+	re2/logging.h\
+	re2/mutex.h\
+	re2/pcre.h\
+	re2/random.h\
+	re2/sparse_array.h\
+	re2/sparse_set.h\
+	re2/test.h\
+	re2/utf.h\
+	re2/valgrind.h\
+	re2/util.h\
 	re2/filtered_re2.h\
 	re2/prefilter.h\
 	re2/prefilter_tree.h\

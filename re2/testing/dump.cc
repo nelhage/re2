@@ -18,7 +18,7 @@
 
 #include <string>
 #include <vector>
-#include "util/test.h"
+#include "re2/test.h"
 #include "re2/stringpiece.h"
 #include "re2/regexp.h"
 

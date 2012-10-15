@@ -35,7 +35,7 @@ static inline void WriteMemoryBarrier() {
 
 #else
 
-#include "util/mutex.h"
+#include "re2/mutex.h"
 
 static inline void WriteMemoryBarrier() {
   // Slight overkill, but good enough:

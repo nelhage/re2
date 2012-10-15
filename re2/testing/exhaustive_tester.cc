@@ -18,7 +18,7 @@
 #define LOGGING 0
 #endif
 
-#include "util/test.h"
+#include "re2/test.h"
 #include "re2/testing/exhaustive_tester.h"
 #include "re2/testing/tester.h"
 

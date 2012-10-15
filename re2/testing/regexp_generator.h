@@ -10,8 +10,8 @@
 
 #include <string>
 #include <vector>
-#include "util/random.h"
-#include "util/util.h"
+#include "re2/random.h"
+#include "re2/util.h"
 #include "re2/stringpiece.h"
 
 namespace re2 {

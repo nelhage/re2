@@ -5,8 +5,8 @@
 // Compiled regular expression representation.
 // Tested by compile_test.cc
 
-#include "util/util.h"
-#include "util/sparse_set.h"
+#include "re2/util.h"
+#include "re2/sparse_set.h"
 #include "re2/prog.h"
 #include "re2/stringpiece.h"
 

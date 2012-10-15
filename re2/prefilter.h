@@ -9,7 +9,7 @@
 #ifndef RE2_PREFILTER_H_
 #define RE2_PREFILTER_H_
 
-#include "util/util.h"
+#include "re2/util.h"
 
 namespace re2 {
 

@@ -4,8 +4,8 @@
 
 // Regular expression engine tester -- test all the implementations against each other.
 
-#include "util/util.h"
-#include "util/flags.h"
+#include "re2/util.h"
+#include "re2/flags.h"
 #include "re2/testing/tester.h"
 #include "re2/prog.h"
 #include "re2/re2.h"
