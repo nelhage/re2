@@ -49,6 +49,13 @@ INSTALL_HFILES=\
 	re2/set.h\
 	re2/stringpiece.h\
 	re2/variadic_function.h\
+	re2/walker-inl.h\
+	re2/util.h\
+	re2/arena.h\
+	re2/logging.h\
+	re2/mutex.h\
+	re2/utf.h\
+	re2/regexp.h
 
 HFILES=\
 	re2/arena.h\
