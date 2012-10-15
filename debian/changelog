@@ -1,0 +1,5 @@
+re2 (0~20121014.193fc841-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Nelson Elhage <nelhage@nelhage.com>  Sun, 14 Oct 2012 22:18:27 -0700
