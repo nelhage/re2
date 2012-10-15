@@ -1,3 +1,9 @@
+re2 (0~20121014.193fc841-2) precise; urgency=low
+
+  * Switch to maintaing patches directly in git.
+
+ -- Nelson Elhage <nelhage@nelhage.com>  Mon, 15 Oct 2012 11:07:38 -0700
+
 re2 (0~20121014.193fc841-1) unstable; urgency=low
 
   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
