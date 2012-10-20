@@ -1,3 +1,9 @@
+re2 (0~20121014.193fc841-1~lucid1) lucid; urgency=low
+
+  * Backport to Ubuntu Lucid
+
+ -- Nelson Elhage <nelhage@nelhage.com>  Sat, 20 Oct 2012 11:20:40 -0700
+
 re2 (0~20121014.193fc841-1) precise; urgency=low
 
   * Initial release

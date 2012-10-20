@@ -1,7 +1,7 @@
 Source: re2
 Priority: extra
 Maintainer: Nelson Elhage <nelhage@nelhage.com>
-Build-Depends: debhelper (>= 8.0.0)
+Build-Depends: debhelper
 Standards-Version: 3.9.2
 Section: libs
 Homepage: http://code.google.com/p/re2/
